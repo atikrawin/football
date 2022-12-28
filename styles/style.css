@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #dee3e6;
 }
 
 .header {
@@ -62,7 +63,7 @@ body {
 }
 
 main {
-    background-color: #dee3e6;
+    /* background-color: #dee3e6; */
 }
 
 .players {
@@ -102,4 +103,44 @@ main {
 
 .player-name {
     margin-bottom: 0px;
+}
+
+.conmebol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
+}
+
+.conmebol-details {
+    width: 469px;
+    height: 309px;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+
+.conmebol-banner img {
+    width: 567px;
+    height: 427px;
+    margin-left: 130px;
+    border-radius: 5px;
+}
+
+.footer-details {
+    margin-left: 500px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icons {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    margin-left: 10px;
+}
+
+.copyright {
+    margin-left: 350px;
 }
